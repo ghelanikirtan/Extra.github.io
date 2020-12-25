@@ -1,0 +1,292 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: rgb(182, 182, 182);
+    background-image: url(https://i.pinimg.com/originals/34/59/3b/34593bc301b2ab36e6fa1d7f7799d6fa.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:absolute;
+    
+}
+
+header{
+    
+}
+
+.header-box{
+    height: 65px;
+    width: 1400px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(0%,18%);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+    box-shadow: 2px 2px 5px rgb(0, 0, 0);
+    color:rgba(30, 30, 30, 0.898);
+    font-family: "corbel";
+    padding-left: 50px;
+    padding-top: 0px;
+    margin-top: 10px;
+    font-size: 15px;
+    float: left;
+
+}
+
+
+
+.header-logo{
+    float:left;
+    padding-top: 10px;
+    padding-left: 40px;
+
+}
+
+.header-logo h1{
+    font-family: "tahoma";
+    color: rgb(44, 44, 44);
+}
+
+.header-list li{
+    list-style-type: none;
+    float: right;
+    padding-top: 3px;
+    padding-right: 55px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.header-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.main{
+
+}
+
+.login-box{
+    height: 480px;
+    width: 380px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(152%, 28%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    box-shadow: 10px 10px 10px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 50px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 22px;
+
+}
+
+.login-box p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+
+.remember-me{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+.login-box input{
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+
+.login-box input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    width: 240px;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    
+} 
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 240px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.557);  
+    margin-bottom: 20px;
+
+}
+
+.login-box input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.802);  
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
+
+}
+
+.login-box input[type="checkbox"]{
+    border: none;
+    outline: none;
+    width: 15px;
+    height: 15px;
+
+}
+
+
+
+
+.login-box a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(157, 157, 157);
+    line-height: 20px;
+    
+}
+
+.login-box a:hover{
+    color: rgb(6, 26, 245);
+    font-size: 16px;
+    
+}
+
+.box-1{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(30%, 45%);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "mistral";
+    font-size: 40px;
+
+}
+
+
+.box-1:hover{
+    height: 382px;
+    width: 302px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(30%, 45%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "mistral";
+    font-size: 41px;
+
+}
+
+.box-2{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(30%, 45%);
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5));
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "mistral";
+    font-size: 40px;
+
+}
+
+.box-2:hover{
+    height: 382px;
+    width: 302px;
+    border-radius: 20px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    box-sizing: border-box;
+    transform: translate(30%, 45%);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6));
+    box-shadow: 10px 10px 15px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family: "mistral";
+    font-size: 41px;
+
+}
+
+footer{
+
+}
+
+.footer-box{
+    height: 88px;
+    width: 1066px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(234px,670px);
+    background: linear-gradient(rgba(255, 255, 255, 0.7),rgba(255, 255, 255, 0.7));
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    color:rgba(30, 30, 30, 0.898);
+    font-family: "corbel";
+
+}
+
+.footer-list li{
+    list-style-type: none;
+    float: left;
+    padding: 13px 50px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.footer-list li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(38, 38, 41);
+
+}
+
+.footer-list a{
+    text-decoration: none;
+    font-size: 15px;
+    color:rgba(30, 30, 30, 0.898);
+    line-height: 20px;
+}
+
+.footer-list a:hover{
+    color: rgb(6, 26, 245);
+    
+}
