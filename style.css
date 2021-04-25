@@ -108,4 +108,28 @@ body{
     .container{
         flex-direction: column;
     }
+    .box{
+        grid-row-start: 1 ;
+        grid-row-end: 1;
+        margin: 7rem 1rem;
+        height: 60vh;
+        min-width: 340px;
+        background-color: rgba(240, 248, 255, 0.04);
+        text-align: center;
+        border-radius: 20px;
+        z-index: 2;
+        backdrop-filter: blur(1rem);
+        box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.993);
+    
+    }
+
+    .box:hover{
+        background-color: rgba(240, 248, 255, 0.279);
+        transition-duration: .5s;
+
+        margin: 6.5rem 1rem;
+        height: 62vh;
+        min-width: 350px;
+    }
+
 }
