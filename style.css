@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(20, 2, 20);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100vh;
+}
+
+.circle1{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background: rgb(186, 39, 112);
+    position: fixed;
+    top: -15%;
+    left: -10%;
+    z-index: 1;
+}
+
+.circle2{
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+    background: rgb(186, 39, 112);
+    position: fixed;
+    bottom: -15%;
+    right: -10%;
+    z-index: 1;
+}
+
+.circle3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: rgb(186, 39, 112);
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.circle4{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background: rgb(186, 39, 112);
+    position:fixed;
+    top: 20%;
+    left: 60%;
+    z-index: 1;
+}
+
+.circle5{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: rgb(201, 39, 179);
+    position:fixed;
+    top: 70%;
+    left: 20%;
+    z-index: 1;
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 1.5rem;
+}
+
+.box{
+    grid-row-start: 1 ;
+    grid-row-end: 1;
+    margin: 7rem 1rem;
+    height: 60vh;
+    min-width: 340px;
+    background-color: rgba(240, 248, 255, 0.04);
+    text-align: center;
+    border-radius: 20px;
+    z-index: 2;
+    backdrop-filter: blur(1rem);
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.993);
+    
+}
+
+.box:hover{
+    background-color: rgba(240, 248, 255, 0.279);
+    transition-duration: .5s;
+
+    margin: 6.5rem 1rem;
+    height: 62vh;
+    min-width: 350px;
+}
+
+
+
+@media all and (max-width: 1085px){
+    .container{
+        flex-direction: column;
+    }
+}
